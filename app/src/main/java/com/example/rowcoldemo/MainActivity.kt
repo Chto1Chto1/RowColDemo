@@ -47,7 +47,7 @@ fun MainScreen(modifier: Modifier = Modifier) {
     Row {
         Text(
             text = "Large Text\n\nMore Text",
-            Modifier.alignBy(FirstBaseline),
+            Modifier.alignBy(LastBaseline),
             fontSize = 40.sp,
             fontWeight = FontWeight.Bold
         )
